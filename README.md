@@ -19,3 +19,9 @@ notebooks/ → experiments
 ## Goal
 
 Build a production-grade forecasting system with agent-based decision layers.
+
+## How to run
+
+Always run modules from project root:
+
+python3 -m data_pipeline.ingestion
