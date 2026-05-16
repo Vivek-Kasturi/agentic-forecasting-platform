@@ -1,8 +1,11 @@
+# utils/logger.py
+
 import logging
+from config.settings import LOG_LEVEL
 
 logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    level=LOG_LEVEL,
+    format="%(asctime)s | %(levelname)s | %(name)s | %(message)s"
 )
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("forecasting_pipeline")

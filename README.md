@@ -25,3 +25,12 @@ Build a production-grade forecasting system with agent-based decision layers.
 Always run modules from project root:
 
 python3 -m data_pipeline.ingestion
+
+## Validation Features
+
+- Missing value detection
+- Duplicate timestamp checks
+- Schema validation
+- Frequency consistency checks
+- Structured logging
+- Centralized configuration
